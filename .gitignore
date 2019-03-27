@@ -17,6 +17,9 @@ HELP.md
 *.iml
 *.ipr
 
+### Mac
+*.DS*
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
