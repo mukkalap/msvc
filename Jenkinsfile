@@ -1,6 +1,11 @@
 pipeline {
 
-   agent {label 'maven'}
+   agent {
+      docker {
+         image 'jenkins-slave/latest'
+         label 'maven'
+       }
+   }
    
    stages{
        stage('Build') {
