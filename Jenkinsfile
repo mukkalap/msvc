@@ -2,7 +2,7 @@ pipeline {
 
    agent {
       docker {
-         //image 'jenkins-slave/latest'
+         image 'jenkins/jnlp-agent-maven:latest'
          label 'maven'
        }
    }
