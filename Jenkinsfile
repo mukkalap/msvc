@@ -1,10 +1,10 @@
 pipeline {
 
    agent {
-      docker {
-         image 'jenkins/jnlp-agent-maven:latest'
+ 
+ 
          label 'maven'
-       }
+ 
    }
    
    stages{
