@@ -1,10 +1,7 @@
 pipeline {
 
    agent {
- 
- 
-         label 'maven'
- 
+      label 'maven-ssh-dyn-slave'
    }
    
    stages{
